@@ -1,4 +1,4 @@
-# 🩺 Breast Cancer Prediction Web App / 乳癌預測系統
+# 🩺 Breast Cancer Prediction Web App | 乳癌預測系統
 
 This is a machine learning-powered interactive web application that predicts whether a breast tumor is benign or malignant based on user input or uploaded CSV files. Built with Streamlit and supporting multiple models including Random Forest, SVM, XGBoost, and a PyTorch MLP.
 
@@ -30,30 +30,30 @@ This is a machine learning-powered interactive web application that predicts whe
 
 ## ⚙️Usage | 快速使用
 
-### 1. Clone this repo / 複製專案
+### 1. Clone this repo | 複製專案
 ```bash
 git clone https://github.com/YOUR_USERNAME/breast_cancer_prediction.git
 cd breast_cancer_prediction
 ```
 
-### 2. Create virtual environment / 建立虛擬環境
+### 2. Create virtual environment | 建立虛擬環境
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install dependencies / 安裝套件
+### 3. Install dependencies | 安裝套件
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Train models / 訓練模型（如果沒有現成的）
+### 4. Train models | 訓練模型（如果沒有現成的）
 ```bash
 python3 train_models.py
 python3 train_pytorch.py
 ```
 
-### 5. Run the app / 啟動預測系統
+### 5. Run the app | 啟動預測系統
 ```bash
 streamlit run app.py
 ```
@@ -94,7 +94,7 @@ If you like this project or want to collaborate, feel free to reach out:
 
 ---
 
-## 💡 Credit / 資料來源
+## 💡 Credit | 資料來源
 Dataset from [UCI Breast Cancer Wisconsin Diagnostic Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html).
 
 模型設計靈感來自醫療分類應用。
