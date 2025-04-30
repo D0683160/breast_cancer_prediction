@@ -8,12 +8,12 @@ This is a machine learning-powered interactive web application that predicts whe
 
 ## 🔍 Features | 功能特色
 
-  - 🎛 **Multi-model prediction** 多模型切換：RF / SVM / XGBoost / PyTorch
-  - 🖥 **Streamlit interface** 中文化網頁介面
-  - 📤 **CSV batch upload** 支援上傳 CSV 批次預測
-  - 📈 **Model probability output** 顯示預測機率與信心值
-  - 🧠 **Feature importance plot** 特徵重要性圖（支援的模型）
-  - 📊 **Data visualization** 資料視覺化（BoxPlot / Histogram / Heatmap）
+- 🎛 **Multi-model prediction** 多模型切換：RF / SVM / XGBoost / PyTorch
+- 🖥 **Streamlit interface** 中文化網頁介面
+- 📤 **CSV batch upload** 支援上傳 CSV 批次預測
+- 📈 **Model probability output** 顯示預測機率與信心值
+- 🧠 **Feature importance plot** 特徵重要性圖（支援的模型）
+- 📊 **Data visualization** 資料視覺化（BoxPlot / Histogram / Heatmap）
 
 ---
 
@@ -61,18 +61,18 @@ streamlit run app.py
 ---
 
 ## 📁 Project Structure | 專案結構
-  ```text
-  ├── app.py                   # Streamlit Web UI
-  ├── train_models.py          # 訓練 scikit-learn 模型
-  ├── train_pytorch.py         # 訓練 PyTorch 模型
-  ├── rf_model.pkl             # 隨機森林模型
-  ├── svm_model.pkl            # SVM 模型
-  ├── xgb_model.pkl            # XGBoost 模型
-  ├── pytorch_model.pt         # PyTorch 模型
-  ├── pytorch_scaler.pkl       # PyTorch 輸入標準化器
-  ├── requirements.txt         # 套件需求清單
-  └── README.md
-  ```
+```text
+├── app.py                   # Streamlit Web UI
+├── train_models.py          # 訓練 scikit-learn 模型
+├── train_pytorch.py         # 訓練 PyTorch 模型
+├── rf_model.pkl             # 隨機森林模型
+├── svm_model.pkl            # SVM 模型
+├── xgb_model.pkl            # XGBoost 模型
+├── pytorch_model.pt         # PyTorch 模型
+├── pytorch_scaler.pkl       # PyTorch 輸入標準化器
+├── requirements.txt         # 套件需求清單
+└── README.md
+```
 
 ---
 
@@ -88,7 +88,7 @@ Please make sure to update tests as appropriate.
 
 If you like this project or want to collaborate, feel free to reach out:
 如果你喜歡這個專案或希望合作，歡迎聯絡我：
-
+Yi-Huan,Lee  
 - GitHub: [https://github.com/D0683160](https://github.com/D0683160)
 - Email: antoniolee489@gmail.com
 
