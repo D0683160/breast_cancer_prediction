@@ -1,0 +1,10 @@
+streamlit
+scikit-learn
+xgboost
+torch
+torchvision
+pandas
+matplotlib
+seaborn
+joblib
+
